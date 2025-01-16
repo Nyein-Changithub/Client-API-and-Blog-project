@@ -1,0 +1,24 @@
+
+
+MVC
+
+Model (data)     |       View (UI)   သူတို့နှစ်ခုကို ခွဲရေးရတယ်.
+
+            controller (input ကိုလက်ခံပြီး အလုပ်လုပ်ဖို့ဖြစ်တယ် ၊ input& request )
+
+
+
+## for authentication ##
+
+composer require laravel/Ui
+php artisan ui bootstrap --auth
+npm install
+npm run build
+
+
+
+php aritsan install:api
+php aritsan make:controller CategoryApicontroller --api --model=Category
+
+
+https://github.com/eimg/pwd-2024-feb ( source code for api project)

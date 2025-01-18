@@ -29,7 +29,7 @@ The **App Project** fetches category data from the **Blog Project** via API call
 ## Technologies Used
 
 ### Blog Project:
-- **Framework**: Laravel 10.x  
+- **Framework**: Laravel 11.x  
 - **Database**: MySQL  
 - **Backend Language**: PHP  
 

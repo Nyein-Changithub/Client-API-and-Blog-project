@@ -41,7 +41,7 @@ The **App Project** fetches category data from the **Blog Project** via API call
 
 ## Folder Structure
 
-```plaintext
+plaintext
 repository/
 │
 ├── app/              # App Project (Frontend)
@@ -57,3 +57,50 @@ repository/
 │   └── README.md     # Blog-specific README
 │
 └── README.md         # Main repository README
+
+---
+## Setup and Installation
+
+### Prerequisites:
+Before proceeding, ensure you have the following installed:
+- PHP >= 8.1  
+- Composer >= 2.0    
+- MySQL >= 5.7  
+- A web server like Apache or Nginx  
+
+---
+
+## Blog Project (Laravel Setup)
+1.### Navigate to the blog folder:
+cd blog
+
+2.### Install dependencies using Composer:
+composer install
+
+3.### Copy the .env.example file to .env:
+cp .env.example .env
+
+4.### Set up your database in the .env file:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+
+5.### Run the database migrations:
+php artisan migrate
+
+6.### Seed the database with sample data (optional):
+php artisan db:seed
+
+7.### Start the Laravel development server:
+php artisan serve
+
+The project will be available at `http://localhost:8000.`
+
+
+
+
+
+

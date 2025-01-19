@@ -127,17 +127,78 @@ The project will be available at:
 
 ---
 
-## App Project (Frontend Setup)
-
+## App Project Setup (JavaScript Frontend)
 Follow these steps to set up the Frontend App:
 
-### 1. Navigate to the `app` folder:
+**1.Navigate to the app folder:**
+
 ```bash
-cd app
+cd repository/app
 ```
 
-### 2. Open `index.html`:
-Simply open the `index.html` file in your preferred browser. No additional setup is required.
+**2.Open the 1index.html` file in your browser:**
+- This project does not require a development server; it runs as a static frontend app.
+  
+**3.Connect to the Blog Project:**
+- Ensure the Blog Project is running, as the App Project interacts with its API for CRUD operations on categories.
+
+---
+
+## Usage Instructions
+
+### Blog Project:
+1.Access the Blog Project via the browser at `http://localhost:8000`.
+2.Features available:
+- View articles.
+- Add articles.
+- Add comments.
+- Manage categories through the admin panel.
+
+ ### App Project:
+1.Open the index.html file in a browser.
+2.Features available:
+- View a list of categories.
+- Create, update, and delete categories.
+- All actions are synchronized with the Blog Project via its RESTful API.
+
+---
+
+## API Documentation
+The Blog Project exposes the following API endpoints for managing categories:
+
+1.**GET** `/api/categories`
+Fetch all categories.
+
+**Response Example:**
+```json
+[
+    { "id": 1, "name": "Technology" },
+    { "id": 2, "name": "Lifestyle" }
+]
+```
+
+2.**POST** `/api/categories`
+Create a new category.
+
+**Request Body Example:**
+```json
+{
+    "name": "Health"
+}
+```
+
+3.**PUT** `/api/categories/{id}`
+Update an existing category.
+
+**Request Body Example:**
+```json
+{
+    "name": "Updated Category Name"
+}
+```
+
+4.**DELETE** `/api/categories/{id}`
+Delete a specific category by ID.
 
 ---
 

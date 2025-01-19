@@ -148,6 +148,7 @@ cd repository/app
 
 ### Blog Project:
 1.Access the Blog Project via the browser at `http://localhost:8000`.
+
 2.Features available:
 - View articles.
 - Add articles.
@@ -156,6 +157,7 @@ cd repository/app
 
  ### App Project:
 1.Open the index.html file in a browser.
+
 2.Features available:
 - View a list of categories.
 - Create, update, and delete categories.

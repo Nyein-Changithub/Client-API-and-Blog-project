@@ -79,22 +79,22 @@ Before proceeding, ensure you have the following installed:
 
 Follow these steps to set up the Blog project:
 
-### 1. Navigate to the blog folder:
+**1. Navigate to the blog folder:**
 ```bash
 cd blog
 ```
 
-### 2. Install dependencies using Composer:
+**2. Install dependencies using Composer:**
 ```bash
 composer install
 ```
 
-### 3. Copy the `.env.example` file to `.env`:
+**3. Copy the `.env.example` file to `.env`:**
 ```bash
 cp .env.example .env
 ```
 
-### 4. Set up your database in the `.env` file:
+**4. Set up your database in the `.env` file:**
 
 Update the following lines with your database credentials:
 ```env
@@ -165,12 +165,12 @@ cd repository/app
 
 ---
 
-## API Documentation
+### API Documentation
 The Blog Project exposes the following API endpoints for managing categories:
 
 1.**GET** `/api/categories`
-Fetch all categories.
 
+Fetch all categories.
 **Response Example:**
 ```json
 [
@@ -180,8 +180,8 @@ Fetch all categories.
 ```
 
 2.**POST** `/api/categories`
-Create a new category.
 
+Create a new category.
 **Request Body Example:**
 ```json
 {
@@ -190,8 +190,8 @@ Create a new category.
 ```
 
 3.**PUT** `/api/categories/{id}`
-Update an existing category.
 
+Update an existing category.
 **Request Body Example:**
 ```json
 {
@@ -200,6 +200,7 @@ Update an existing category.
 ```
 
 4.**DELETE** `/api/categories/{id}`
+
 Delete a specific category by ID.
 
 ---

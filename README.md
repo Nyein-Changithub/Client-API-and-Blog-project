@@ -1,6 +1,6 @@
 ## Repository: Multi-Project Setup (App & Blog)
 
-## Table of Contents
+### Table of Contents
 1. [Project Description](#project-description)
 2. [Technologies Used](#technologies-used)
 3. [Folder Structure](#folder-structure)
@@ -41,7 +41,7 @@ The **App Project** fetches category data from the **Blog Project** via API call
 
 ## Repository Overview
 
-## Folder Structure
+### Folder Structure
 
 ```plaintext
 repository/

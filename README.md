@@ -1,4 +1,4 @@
-# Repository: Multi-Project Setup (App & Blog)
+## Repository: Multi-Project Setup (App & Blog)
 
 ## Table of Contents
 1. [Project Description](#project-description)
@@ -39,7 +39,7 @@ The **App Project** fetches category data from the **Blog Project** via API call
 
 ---
 
-# Repository Overview
+## Repository Overview
 
 ## Folder Structure
 

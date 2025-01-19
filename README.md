@@ -226,6 +226,8 @@ If you want to contribute:
 ---
 
 ## License
-This project is licensed under the MIT License. See the `https://github.com/Nyein-Changithub/Client-API-and-Blog-project/blob/442cb5650b82d54432956fc5d93a27e32653a254/LICENSE` file for details.
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+
 
 

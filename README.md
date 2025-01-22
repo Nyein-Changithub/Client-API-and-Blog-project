@@ -112,11 +112,25 @@ DB_PASSWORD=your_database_password
 ```bash
 php artisan migrate
 ```
-
 **6. Seed the database with sample data (optional):**
 If you want to populate the database with sample data:
 ```bash
 php artisan db:seed
+```
+
+**7. Dependencies Install** 
+```bash
+npm install
+```
+
+**8. Frontend Assets Compile**
+Development mode 
+```bash
+npm run dev
+```
+Production mode
+```bash
+npm run build
 ```
 
 **7. Start the Laravel development server:**

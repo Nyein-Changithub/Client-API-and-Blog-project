@@ -92,6 +92,8 @@ composer install
 **3. Copy the `.env.example` file to `.env`:**
 ```bash
 cp .env.example .env
+
+php artisan key:generate
 ```
 
 **4. Set up your database in the `.env` file:**

@@ -118,22 +118,15 @@ If you want to populate the database with sample data:
 php artisan db:seed
 ```
 
-**7. Dependencies Install** 
+**7.Authentication UI Install:**
 ```bash
+composer require laravel/ui
+php artisan ui bootstrap --auth
 npm install
-```
-
-**8. Frontend Assets Compile**
-Development mode 
-```bash
 npm run dev
 ```
-Production mode
-```bash
-npm run build
-```
 
-**7. Start the Laravel development server:**
+**8. Start the Laravel development server:**
 ```bash
 php artisan serve
 ```

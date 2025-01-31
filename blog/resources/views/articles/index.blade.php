@@ -30,7 +30,7 @@
                         {{ $article->body }}
                     </div>
                     <div class="mt-2">
-                        <a href="{{ url("/articles/detail/$article->id") }}" class="card-link">View Detail</a>
+                        <a href="{{ url("/articles/detail/$article->id") }}" class="card-link">View Detail &raquo;</a>
                     </div>
                 </div>
             </div>

@@ -19,11 +19,22 @@ This is a static HTML, CSS, and JavaScript-based frontend application designed t
 - Blog Project running locally or on a server.
 
 ### Steps
+<<<<<<< HEAD
 1. Clone the repository and navigate to the `app` directory:
    ```bash
    git clone <repository-url>
    cd repository/app
     ```
+=======
+
+1.Clone the repository and navigate to the `app` directory:
+  
+```bash
+   git clone <repository-url>
+   
+   cd repository/app
+```
+>>>>>>> 8d721e524247c66281a51b7b8b26149b11a6c45a
 
 2.Open the `index.html` file in your browser:
 - Double-click the file, or
@@ -47,8 +58,16 @@ app/
 This app uses the following endpoints from the Blog Project:
 
 1.**GET** `/api/categories`: Fetch all categories.
+<<<<<<< HEAD
 2.**POST** `/api/categories`: Create a new category.
 3.**PUT** `/api/categories/{id}`: Update an existing category.
+=======
+
+2.**POST** `/api/categories`: Create a new category.
+
+3.**PUT** `/api/categories/{id}`: Update an existing category.
+
+>>>>>>> 8d721e524247c66281a51b7b8b26149b11a6c45a
 4.**DELETE** `/api/categories/{id}`: Delete a category.
 
 ---

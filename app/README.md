@@ -19,64 +19,40 @@ This is a static HTML, CSS, and JavaScript-based frontend application designed t
 - Blog Project running locally or on a server.
 
 ### Steps
-<<<<<<< HEAD
-1. Clone the repository and navigate to the `app` directory:
-   ```bash
-=======
-<<<<<<< HEAD
-1. Clone the repository and navigate to the `app` directory:
+
+1.Clone the repository and navigate to the `app` directory:***
    ```bash
    git clone <repository-url>
    cd repository/app
-    ```
-=======
+   ```
 
-1.Clone the repository and navigate to the `app` directory:
-  
-```bash
->>>>>>> a78068a5a2804dc6ce5bd35f82a44468a6eabb24
-   git clone <repository-url>
-   cd repository/app
-<<<<<<< HEAD
-    ```
-=======
-```
->>>>>>> 8d721e524247c66281a51b7b8b26149b11a6c45a
->>>>>>> a78068a5a2804dc6ce5bd35f82a44468a6eabb24
+2.Open the `index.html` file in your browser:***
 
-2.Open the `index.html` file in your browser:
 - Double-click the file, or
 - Serve the folder using a local server (optional).
-  
-3.Ensure the Blog Project is running, as the App Project depends on its API.
+
+3.Ensure the Blog Project is running, as the App Project depends on its API.***
 
 ### Folder Structure
-```plaintext
 
+```plaintext
 app/
 ├── index.html    # Main entry point
 ├── css/          # Stylesheets
 ├── js/           # JavaScript files
 └── README.md     # Documentation
-
 ```
 ---
-
 ### API Endpoints Used
 This app uses the following endpoints from the Blog Project:
 
-1.**GET** `/api/categories`: Fetch all categories.
-<<<<<<< HEAD
-2.**POST** `/api/categories`: Create a new category.
-3.**PUT** `/api/categories/{id}`: Update an existing category.
-=======
+1.***GET*** `/api/categories`: Fetch all categories.
 
-2.**POST** `/api/categories`: Create a new category.
+2.***POST*** `/api/categories`: Create a new category.
 
-3.**PUT** `/api/categories/{id}`: Update an existing category.
+3.***PUT*** `/api/categories/{id}`: Update an existing category.
 
->>>>>>> 8d721e524247c66281a51b7b8b26149b11a6c45a
-4.**DELETE** `/api/categories/{id}`: Delete a category.
+4.***DELETE*** `/api/categories/{id}`: Delete a category.
 
 ---
 
@@ -84,6 +60,8 @@ This app uses the following endpoints from the Blog Project:
 - This app is a static application and does not require a backend to serve its files.
 - Ensure the Blog Project API is accessible for full functionality.
 
+---
 
 ### License
 This project is licensed under the `MIT License`.
+

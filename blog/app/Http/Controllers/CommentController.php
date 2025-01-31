@@ -37,7 +37,7 @@ class CommentController extends Controller
             $comment->delete();
             return back()->with('info', 'Comment deleted successfully');
         }
-
+        
         return back()->with('info', 'Unauthorized');
     }
 }

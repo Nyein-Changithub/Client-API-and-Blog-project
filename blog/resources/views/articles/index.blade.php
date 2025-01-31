@@ -19,7 +19,7 @@
                         <b class="text-success">
                             {{ $article->user->name }}
                         </b>,
-
+                        
                         <small class="text-muted">
                             <b>Category:</b>
                             {{ $article->category->name ?? 'Unknown' }},

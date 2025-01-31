@@ -41,7 +41,6 @@ Copy .`env.example` to `.env` and configure your database settings:
 
 ```bash
 cp .env.example .env
-
 php artisan key:generate
 ```
 

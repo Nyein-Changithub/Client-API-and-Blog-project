@@ -7,7 +7,7 @@
                 {{ session('info') }}
             </div>
         @endif
-
+        
         <div class="card mb-2 border-primary">
             <div class="card-body">
                 <h3 class="h3 card-title">{{ $article->title }}</h3>

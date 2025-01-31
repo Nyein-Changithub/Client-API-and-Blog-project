@@ -46,13 +46,13 @@ app/
 ### API Endpoints Used
 This app uses the following endpoints from the Blog Project:
 
-1.***GET*** `/api/categories`: Fetch all categories.
+1.**GET** `/api/categories`: Fetch all categories.
 
-2.***POST*** `/api/categories`: Create a new category.
+2.**POST** `/api/categories`: Create a new category.
 
-3.***PUT*** `/api/categories/{id}`: Update an existing category.
+3.**PUT** `/api/categories/{id}`: Update an existing category.
 
-4.***DELETE*** `/api/categories/{id}`: Delete a category.
+4.**DELETE** `/api/categories/{id}`: Delete a category.
 
 ---
 

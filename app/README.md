@@ -26,7 +26,7 @@ This is a static HTML, CSS, and JavaScript-based frontend application designed t
    cd repository/app
    ```
 
-2.Open the `index.html` file in your browser:***
+2.Open the `index.html` file in your browser:
 
 - Double-click the file, or
 - Serve the folder using a local server (optional).

@@ -19,14 +19,11 @@ This is a static HTML, CSS, and JavaScript-based frontend application designed t
 - Blog Project running locally or on a server.
 
 ### Steps
-
-1.Clone the repository and navigate to the `app` directory:
-  
-```bash
+1. Clone the repository and navigate to the `app` directory:
+   ```bash
    git clone <repository-url>
-   
    cd repository/app
-```
+    ```
 
 2.Open the `index.html` file in your browser:
 - Double-click the file, or

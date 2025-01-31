@@ -33,11 +33,11 @@ class CommentController extends Controller
     {
         $comment = Comment::find($id);
 
-        if(Gate::allows('delete-comment', $comment)) {
+        if(Gate::allows('comment-delete', $comment)) {
             $comment->delete();
-            return back();
+            return back()->with('info', 'Comment deleted successfully');
         }
 
-        return back()->with('info', 'Unauthorize');
+        return back()->with('info', 'Unauthorized');
     }
 }

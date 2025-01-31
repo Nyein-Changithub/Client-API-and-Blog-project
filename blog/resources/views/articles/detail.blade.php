@@ -1,8 +1,8 @@
-@extends("layouts.app")
-@section("content")
+@extends('layouts.app')
+@section('content')
     <div class="container" style="max-width:800px">
 
-        @if(session('info'))
+        @if (session('info'))
             <div class="alert alert-info">
                 {{ session('info') }}
             </div>
@@ -18,7 +18,7 @@
 
                     <small class="text-muted">
                         <b>Category:</b>
-                        {{ $article->category->name ?? "Unknown" }},
+                        {{ $article->category->name ?? 'Unknown' }},
                         {{ $article->created_at->diffForHumans() }}
                     </small>
                 </div>
@@ -44,18 +44,22 @@
             @foreach ($article->comments as $comment)
                 <li class="list-group-item">
                     @auth
-                        @can('delete-comment', $comment)
-                            <a href="{{ url("/comments/delete/$comment->id") }}"    class="btn-close float-end"></a>
+                        @can('comment-delete', $comment)
+                            <a href="{{ url("/comments/delete/$comment->id") }}" class="btn-close float-end"></a>
                         @endcan
                     @endauth
 
                     <b class="text-success">{{ $comment->user->name }}</b> -
                     {{ $comment->content }}
+                    <div class="small mt-2">
+                        By <b>{{ $comment->user->name }}</b>,
+                        {{ $comment->created_at->diffForHumans() }}
+                    </div>
                 </li>
             @endforeach
         </ul>
         @auth
-            <form action="{{ url("/comments/add") }}" method="post">
+            <form action="{{ url('/comments/add') }}" method="post">
                 @csrf
                 <input type="hidden" name="article_id" value="{{ $article->id }}">
                 <textarea name="content" class="form-control mb-2"></textarea>

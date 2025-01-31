@@ -96,6 +96,10 @@ class ArticleController extends Controller
     {
         $article = Article::find($id);
 
+        if (!$article) {
+            return back()->with('info', 'Article not found');
+        }
+
         if( Gate::allows('delete-article', $article) ) {
             $article->delete();
             return redirect("/articles")->with("info", "Article Deleted");

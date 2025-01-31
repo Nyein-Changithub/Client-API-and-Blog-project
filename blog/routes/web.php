@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CommentController;
 
-Route::get('comments/delete/{id}', [CommentController::class, 'delete']);
+Route::get('/comments/delete/{id}', [CommentController::class, 'delete']);
 Route::post('/comments/add', [CommentController::class, 'create']);
 
 Route::get('/articles',[ArticleController::class, 'index']);
